@@ -1,7 +1,7 @@
 // console.log( window.location.hostname.includes('localhost') );
 const url = ( window.location.hostname.includes('localhost') )
             ? 'http://localhost:8081/api/auth'
-            : 'https://curso-node-restserver-ac.herokuapp.com/api/auth';
+            : 'https://sockets-con-autenticacion.herokuapp.com/api/auth';
 
 let user   = null;
 let socket = null;
